@@ -1,0 +1,18 @@
+{
+  "name": "Zonaris",
+  "short_name": "Zonaris",
+  "description": "Portal oficial del universo narrativo Zonaris.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0e0f0d",
+  "theme_color": "#0e0f0d",
+  "lang": "es",
+  "icons": [
+    {
+      "src": "/assets/icons/favicon.svg",
+      "sizes": "64x64",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

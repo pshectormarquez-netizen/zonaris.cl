@@ -1,0 +1,42 @@
+.book-detail {
+  align-items: start;
+  display: grid;
+  gap: var(--space-6);
+}
+
+.book-detail__aside {
+  display: grid;
+  gap: var(--space-4);
+}
+
+.feature-list {
+  display: grid;
+  gap: var(--space-4);
+  list-style: none;
+}
+
+.feature-list li {
+  border-bottom: 1px solid rgba(216, 208, 189, 0.12);
+  padding-bottom: var(--space-4);
+}
+
+.contact-panel {
+  display: grid;
+  gap: var(--space-5);
+}
+
+.contact-links {
+  display: grid;
+  gap: var(--space-3);
+  list-style: none;
+}
+
+.contact-links span {
+  color: var(--color-brass-soft);
+}
+
+@media (min-width: 900px) {
+  .book-detail {
+    grid-template-columns: minmax(18rem, 0.42fr) minmax(0, 1fr);
+  }
+}
