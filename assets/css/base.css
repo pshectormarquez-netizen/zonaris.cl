@@ -5,6 +5,19 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "Snasm Lt";
+  src: url("../fonts/Snasm Lt.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SpaceGrotesk";
+  src: url("../fonts/SpaceGrotesk.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   background:
     radial-gradient(circle at top left, rgba(182, 155, 98, 0.08), transparent 34rem),
@@ -56,7 +69,7 @@ h4 {
   font-family: var(--font-title);
   font-weight: 500;
   letter-spacing: 0;
-  line-height: 1.1;
+  line-height: 1.6;
   margin: 0;
 }
 
@@ -65,11 +78,18 @@ h1 {
 }
 
 h2 {
+  font-family: "Snasm Lt", sans-serif;
   font-size: clamp(2rem, 5vw, 3.8rem);
 }
 
 h3 {
-  font-size: clamp(1.35rem, 3vw, 2rem);
+  font-family: "Snasm Lt", sans-serif;
+  font-size: clamp(1.35rem, 3vw, 1.6rem);
+  color: #1d1d5c;
+}
+
+h4 {
+  font-size: clamp(1.35rem, 3vw, 1.6rem);
 }
 
 p {
@@ -112,4 +132,21 @@ p {
   position: absolute;
   white-space: nowrap;
   width: 1px;
+}
+
+.status-item span {
+  color: #000099;
+}
+
+.status-item:first-child span {
+  animation: onlinePulse 3s ease-in-out infinite;
+}
+
+@keyframes onlinePulse {
+  0%, 100% {
+    color: #000099;
+  }
+  50% {
+    color: #f6f6f6;
+  }
 }

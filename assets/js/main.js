@@ -38,16 +38,16 @@
     const books = takeLimit(window.ZONARIS_BOOKS || [], limit);
     target.innerHTML = books.map((book) => `
       <article class="book-card">
-        <div class="book-card__cover">
-          ${
-           book.cover
-             ? `<img
-                 src="${escapeAttribute(book.cover)}"
-                 alt="Portada de ${escapeHtml(book.title)}"
-                 loading="lazy">`
-             : `<span>Portada pendiente</span>`
-            }
-        </div>
+       <a class="book-card__cover" href="${escapeAttribute(book.href)}">
+  ${
+   book.cover
+     ? `<img
+         src="${escapeAttribute(book.cover)}"
+         alt="Portada de ${escapeHtml(book.title)}"
+         loading="lazy">`
+     : `<span>Portada pendiente</span>`
+    }
+</a>
         <div class="book-card__body">
           <p class="eyebrow">Libro ${book.order} · ${escapeHtml(book.status)}</p>
           <h3>${escapeHtml(book.title)}</h3>

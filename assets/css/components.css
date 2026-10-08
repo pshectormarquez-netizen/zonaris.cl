@@ -44,7 +44,7 @@
 .hero {
   align-items: end;
   background:
-    linear-gradient(90deg, #f6f6f6 0%, rgba(14, 15, 13, 0.72) 48%, rgba(14, 15, 13, 0.42) 100%),
+    linear-gradient(90deg, #f6f6f6 0%, rgba(185, 187, 183, 0.72) 48%, rgba(14, 15, 13, 0.42) 100%),
     image-set(
       url("../img/brand/zonaris-archive-hero.webp") type("image/webp"),
       url("../img/brand/zonaris-archive-hero.png") type("image/png")
