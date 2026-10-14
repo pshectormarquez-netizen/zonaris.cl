@@ -337,3 +337,14 @@
     grid-template-columns: minmax(14rem, 0.35fr) minmax(0, 1fr);
   }
 }
+@media (max-width: 779px) {
+  .site-nav a {
+    color: var(--color-bg);
+  }
+
+  .site-nav a[aria-current="page"],
+  .site-nav a:hover,
+  .site-nav a:focus-visible {
+    color: var(--color-archive);
+  }
+}
