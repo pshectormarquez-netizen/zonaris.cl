@@ -20,7 +20,7 @@ npm run start
 /libros/libro-02/
 ```
 
-2. Copiar la estructura de `/libros/libro-01/index.html`.
+2. Copiar la estructura de `/libros/sepk/index.html`.
 3. Reemplazar placeholders por contenido oficial.
 4. Agregar el libro en `assets/js/data-books.js`.
 5. Agregar la nueva URL a `sitemap.xml` cuando la pagina sea publica.

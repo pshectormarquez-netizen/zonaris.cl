@@ -8,7 +8,7 @@ Diseñar el portal oficial de un universo narrativo, no la pagina promocional de
 
 - `/` Inicio
 - `/libros/` Indice de libros
-- `/libros/libro-01/` Ficha del primer libro
+- `/libros/sepk/` Ficha del primer libro
 - `/mundo/` Biblioteca del mundo
 - `/mundo/zonaris/` Introduccion al planeta
 - `/mundo/republica/` Instituciones de la Republica
@@ -35,7 +35,7 @@ Diseñar el portal oficial de un universo narrativo, no la pagina promocional de
 
   /libros/
     index.html
-    /libro-01/
+    /sepk/
       index.html
 
   /mundo/
